@@ -75,5 +75,5 @@ void Personnage::showInfos()
     cout << "pv : " << getPv() << endl;
     cout << "attack : " << getAttack() << endl;
     cout << "defense : " << getDefense() << endl;
-    cout << "crit : " << getPercentCrit() << endl;
+    cout << "crit : " << getPercentCrit() * 100 << "%" << endl;
 }
